@@ -94,9 +94,6 @@ process_file <- function(file_path) {
   # Display Plots
   grid.arrange(nrc_plot, afinn_plot, bing_plot, ncol = 3)
   
-  # Optional: Save plots
-  # ggsave(paste0("nrc_", tools::file_path_sans_ext(file_name), ".png"), nrc_plot, width = 7, height = 5)
-  # ggsave(paste0("afinn_", tools::file_path_sans_ext(file_name), ".png"), afinn_plot, width = 7, height = 5)
 }
 
 # ==== 5. Run Analysis for Each File ====
